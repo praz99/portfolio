@@ -1,0 +1,57 @@
+.header {
+  padding: 120px 16px 0px 24px;
+  width: 100%;
+  height: 100vh;
+
+  background: #1c1a19;
+}
+
+.headline .headline-primary {
+  font-family: Crete Round;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  text-align: left;
+
+  color: #FF6B00;
+}
+
+.headline .headline-supporting {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+
+  color: #FFF5E1;
+}
+
+.headline .headline-description {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  
+  color: #FFFFFF;
+}
+
+.social-media-icons {
+  width: 200px;
+  height: 40px;
+  margin: 0px 12px;
+  font-size: 20px;
+}
+
+.social-media-icons a {
+  padding: 8px 0px 0px 8px;
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px;
+
+  color: #cfcfcf;
+  cursor: pointer;
+}
