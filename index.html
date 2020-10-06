@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Portfolio</a>
+            <a class="nav-link text-white" href="#works">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white" href="#base-container">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link text-white" href="#input-form">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white"href="#" ><span><i class="fas fa-envelope"></i></span></a>
+            <a class="nav-link text-white"href="mailto:t.prazwal@gmail.com"><span><i class="fas fa-envelope"></i></span></a>
           </li>
         </ul>
       </div>
@@ -47,18 +47,18 @@
           </p>
         </div>
         <div class="header-social-media-icons d-flex flex-row flex-md-column py-3">
-          <a href="" class="social-github"><span><i class="fab fa-github"></i></span></a>
-          <a href="" class="social-linkedin"><span><i class="fab fa-linkedin-in"></i></span></a>
-          <a href="" class="social-twitter"><span><i class="fab fa-twitter"></i></span></a>
-          <a href="" class="social-facebook"><span><i class="fab fa-facebook-f"></i></span></a>
-          <a href="" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
+          <a href="https://github.com/praz99" target="_blank" class="social-github"><span><i class="fab fa-github"></i></span></a>
+          <a href="https://linkedin.com/in/prazwal-thapa" target="_blank" class="social-linkedin"><span><i class="fab fa-linkedin-in"></i></span></a>
+          <a href="https://twitter.com/thapa_praz" target="_blank" class="social-twitter"><span><i class="fab fa-twitter"></i></span></a>
+          <a href="https://www.facebook.com/prazwal.thapa.90" target="_blank" class="social-facebook"><span><i class="fab fa-facebook-f"></i></span></a>
+          <a href="https://medium.com/@t.prazwal" target="_blank" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
         </div>
         <!-- <div class="illustration-header">
           <img src="img/Illustration-header.svg" alt="">
         </div> -->
       </div>
     </div>
-    <div class="works d-flex flex-column">
+    <div class="works d-flex flex-column" id="works">
       <h1 class="works-title">My Recent Works</h1>
       <div class="works-cards">
         <div class="works-card-featured d-flex flex-column flex-md-row">
@@ -171,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="base-container">
+    <div class="base-container" id="base-container">
       <div class="base">
         <div class="about-me">
           <h1 class="about-me-title">About Me</h1>
@@ -225,31 +225,32 @@
         </div>
       </div>
     </div>
-    <div class="row input-form d-flex flex-column flex-md-row m-0">
-      <div class="col-md-5 input-form-header">
-        <h2 class="">I am always interested in hearing about new projects, so if you'd like to chat please get in</h2>
+    <div class="row input-form d-flex flex-column flex-md-row m-0" id="input-form">
+      <div class="col-md-5">
+        <h2 class="input-form-header">I am always interested in hearing about new projects, so if you'd like to chat please get in</h2>
       </div>
-      <form class="col-md-7">
+      <form class="form col-md-7">
         <div class="form-group">
-          <input type="text" class="form-control" id="form-full-name" placeholder="Full Name">
+          <input type="text" class="form-control form-text-input" id="form-full-name" placeholder="Full Name">
         </div>
         <div class="form-group">
-          <input type="email" class="form-control" id="form-email" placeholder="email@example.com">
+          <input type="email" class="form-control form-text-input" id="form-email" placeholder="email@example.com">
         </div>
         <div class="form-group">
           <textarea class="form-control" id="form-text-area" rows="3" placeholder="Your message here..."></textarea>
         </div>
-        <button type="submit" class="btn">Get in Touch</button>
+        <div class="text-center">
+          <button type="submit" class="btn">Get in Touch</button>
+        </div>
       </form>
     </div>
-    <div class="footer-social-media-icons d-flex flex-row">
-      <a href="" class="social-github"><span><i class="fab fa-github"></i></span></a>
-      <a href="" class="social-linkedin"><span><i class="fab fa-linkedin-in"></i></span></a>
-      <a href="" class="social-twitter"><span><i class="fab fa-twitter"></i></span></a>
-      <a href="" class="social-facebook"><span><i class="fab fa-facebook-f"></i></span></a>
-      <a href="" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
+    <div class="footer-social-media-icons d-flex flex-row justify-content-center">
+      <a href="https://github.com/praz99" target="_blank" class="social-github"><span><i class="fab fa-github"></i></span></a>
+      <a href="https://linkedin.com/in/prazwal-thapa" target="_blank" class="social-linkedin"><span><i class="fab fa-linkedin-in"></i></span></a>
+      <a href="https://twitter.com/thapa_praz" target="_blank" class="social-twitter"><span><i class="fab fa-twitter"></i></span></a>
+      <a href="https://www.facebook.com/prazwal.thapa.90" target="_blank" class="social-facebook"><span><i class="fab fa-facebook-f"></i></span></a>
+      <a href="https://medium.com/@t.prazwal" target="_blank" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
     </div>
-    <div class="bottom-navigation"></div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
