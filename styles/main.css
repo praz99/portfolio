@@ -38,6 +38,7 @@
 }
 
 .headline .headline-supporting {
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -204,7 +205,7 @@
   font-weight: 400;
   line-height: 64px;
   letter-spacing: 0.37px;
-  text-align: center;
+  text-align: left;
 
   color: #FF6B00;
 }
@@ -216,4 +217,30 @@
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+
+.skills {
+  color: #fff;
+  padding: 5em 1.6em;
+}
+
+.languages-header,
+.frameworks-header,
+.skills-header {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  padding-bottom: 1em;
+}
+
+.skills-svg {
+  position: relative;
+  top: 0.5em;
+  left: -1em;
+}
+
+.skills-all-list {
+  padding-bottom: 2em;
 }
