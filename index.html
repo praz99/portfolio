@@ -59,22 +59,29 @@
       </div>
     </div>
     <div class="works d-flex flex-column" id="works">
-      <h1 class="works-title">My Recent Works</h1>
+      <div class="d-flex flex-column flex-md-row">
+        <h1 class="works-title">My Recent Works</h1>
+        <hr class="recent-divider">
+      </div>
       <div class="works-cards">
         <div class="works-card-featured d-flex flex-column flex-md-row">
-          <div class="featured-image card bg-dark text-white border-0 rounded-0">
-            <img src="img/article-tree.png" class="card-img" alt="featured">
-          </div>
-          <div class="featured-description">
-            <h3>Article Tree</h3>
-            <p>An app where users can read and write articles under various categories. Users can also vote their favourite articles and the article with highest number of votes is presented as the featured article.</p>
-            <div class="works-badge pt-2">
-              <span class="badge mr-1">html</span>
-              <span class="badge mx-1">css</span>
-              <span class="badge ml-1">ruby on rails</span>
+          <div class="row">
+            <div class="featured-image card text-white border-0 rounded-0 col-md-7 p-0 mx-3 mx-md-0">
+              <img src="img/article-tree.png" class="card-img featured-card-image" alt="featured">
             </div>
-            <div class="works-button mt-3">
-              <a href="#" class="btn btn-see-project">See Project</a>
+            <div class="featured-description col-md-5">
+              <h3>Article Tree</h3>
+              <p>An app where users can read and write articles under various categories. Users can also vote their favourite articles and the article with highest number of votes is presented as the featured article.</p>
+              <div class="works-badge pt-2">
+                <span class="badge mr-1">html</span>
+                <span class="badge mx-1">css</span>
+                <span class="badge ml-1">ruby on rails</span>
+              </div>
+              <div class="works-button mt-3">
+                <button type="button" class="btn btn-see-project" data-toggle="modal" data-target="#featured-modal">
+                  See Project
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -173,15 +180,15 @@
     </div>
     <div class="base-container" id="base-container">
       <div class="base">
-        <div class="about-me">
-          <h1 class="about-me-title">About Me</h1>
-          <p class="about-me-description py-4">I am a passionate programmer and web developer with a bachelors degree in computer engineering. I transport ideas from brain to browser.</p>
-          <div class="frame">
-            <div class="illustration-about-me"></div>
+        <div class="row m-0">
+          <div class="about-me col-md-7">
+            <h1 class="about-me-title">About Me</h1>
+            <p class="about-me-description py-4">I am a passionate programmer and web developer with a bachelors degree in computer engineering. I transport ideas from brain to browser.</p>
+            <div class="resume-button">
+              <a href="https://docs.google.com/document/d/1sISeHgnupYzYSjQeIL27KFjvUTamvnfDYquD230xy24/edit?usp=sharing" target="_blank" class="btn">Get My Resume</a>
+            </div>
           </div>
-          <div class="resume-button">
-            <a href="#" class="btn">Get My Resume</a>
-          </div>
+          <div class="illustration-about-me col-md-5"></div>
         </div>
         <div class="divider"></div>
         <div class="d-flex flex-column flex-md-row justify-content-around skills">
@@ -219,6 +226,7 @@
             </div>
             <p class="skills-all-list skills-list">Git</p>
             <p class="skills-all-list skills-list">Github/Gitlab</p>
+            <p class="skills-all-list skills-list">Heroku</p>
             <p class="skills-all-list skills-list">TDD/BDD</p>
             <p class="skills-all-list skills-list">Codepen</p>
           </div>
@@ -251,6 +259,9 @@
       <a href="https://www.facebook.com/prazwal.thapa.90" target="_blank" class="social-facebook"><span><i class="fab fa-facebook-f"></i></span></a>
       <a href="https://medium.com/@t.prazwal" target="_blank" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
     </div>
+
+    <!-- Modal -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
