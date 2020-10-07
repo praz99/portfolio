@@ -76,7 +76,9 @@
                 <span class="badge ml-1">ruby on rails</span>
               </div>
               <div class="mt-3 w-50">
-                <a href="https://github.com/praz99/ror_capstone" target="_blank" class="btn works-button">See Project</a>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-featured-article">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
@@ -96,9 +98,9 @@
                     <span class="badge card-normal-badge">ruby on rails</span>
                   </div>
                 </div>
-                <div class="">
-                  <a href="https://github.com/praz99/ror-social-scaffold" target="_blank" class="btn works-button">See Project</a>
-                </div>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-social-network">
+                  See Project
+                </button>
               </div>
             </div>
 
@@ -114,9 +116,9 @@
                     <span class="badge card-normal-badge">bootstrap</span>
                   </div>
                 </div>
-                <div class="">
-                  <a href="https://github.com/praz99/private_events_self" target="_blank" class="btn works-button">See Project</a>
-                </div>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-private-events">
+                  See Project
+                </button>
               </div>
             </div>
 
@@ -131,9 +133,9 @@
                     <span class="badge card-normal-badge">bootstrap</span>
                   </div>
                 </div>
-                <div class="">
-                  <a href="https://github.com/praz99/HTML-CSS-Capstone-project" target="_blank" class="btn works-button">See Project</a>
-                </div>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-bookeeper">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
@@ -221,9 +223,9 @@
       <a href="https://medium.com/@t.prazwal" target="_blank" class="social-medium"><span><i class="fab fa-medium"></i></span></a>
     </div>
 
-    <!-- Modal -->
-    <!-- <div class="modal fade modal-featured-article" id="featured-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+    <!-- Modal article tree -->
+    <div class="modal fade" id="modal-featured-article" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Article Tree</h5>
@@ -231,17 +233,168 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body d-flex">
-            <img src="img/article-tree.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt atque sit repudiandae quisquam aliquam molestias quaerat omnis id, in illo sunt eligendi excepturi minus non tempora beatae veniam dolor?</p>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-see-live">See Live</a>
-            <a href="#" class="btn btn-see-source">See Source</a>
+          <div class="modal-body">
+            <div class="modal-badge mt-2"> 
+              <span class="badge card-modal-badge">html</span>
+              <span class="badge card-modal-badge">css</span>
+              <span class="badge card-modal-badge">ruby on rails</span>
+            </div>
+            <div class="d-flex flex-column flex-md-row row">
+              <div class="image col-md-7">
+                <img src="img/article-tree.png" alt="">
+              </div>
+              <div class="modal-description col-md-5">
+                <div class="modal-description-text">
+                  <p>
+                    Article tree is a web app for reading and writing articles under various categories. An user can register using just a unique username and doesnot require any password to signup or login. There are various categories each containing number of articles. The users can vote their favourite articles and an article with highest number of votes is presented as featured article in the home page.
+                  </p>
+                  <p>
+                    Users can always browse and read all the articles without registering. But only registered users are able to write new articles and vote an existing article.
+                  </p>
+                </div>
+                <div class="buttons d-flex">
+                  <div class="pr-2">
+                    <a href="https://serene-reaches-80199.herokuapp.com/" target="_blank" class="btn works-button">See Live</a>
+                  </div>
+                  <div class="pl-2">
+                    <a href="https://github.com/praz99/ror_capstone" target="_blank" class="btn works-button">See Source</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
+    <!-- Modal stay in touch -->
+    <div class="modal fade" id="modal-social-network" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Stay in Touch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-badge mt-2"> 
+              <span class="badge card-modal-badge">html</span>
+              <span class="badge card-modal-badge">css</span>
+              <span class="badge card-modal-badge">ruby on rails</span>
+            </div>
+            <div class="d-flex flex-column flex-md-row row">
+              <div class="image col-md-7">
+                <img src="img/social_network.png" alt="">
+              </div>
+              <div class="modal-description col-md-5">
+                <div class="modal-description-text">
+                  <p>
+                    Stay in Touch is a social network web app. In this app, after registering, the users can make posts and see the posts made by their friends. User are also able to like and make comments on the posts.
+                  </p>
+                  <p>
+                    Users connect to each-other by sending an invitaion for friendship. An user can see and choose to accept or reject any invitation for friendship from other users.
+                  </p>
+                </div>
+                <div class="buttons d-flex">
+                  <div class="pr-2">
+                    <a href="https://murmuring-reaches-83493.herokuapp.com/" target="_blank" class="btn works-button">See Live</a>
+                  </div>
+                  <div class="pl-2">
+                    <a href="https://github.com/praz99/ror-social-scaffold" target="_blank" class="btn works-button">See Source</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Private events -->
+    <div class="modal fade" id="modal-private-events" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Private Events</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-badge mt-2"> 
+              <span class="badge card-modal-badge">html</span>
+              <span class="badge card-modal-badge">css</span>
+              <span class="badge card-modal-badge">ruby on rails</span>
+              <span class="badge card-modal-badge">bootstrap</span>
+            </div>
+            <div class="d-flex flex-column flex-md-row row">
+              <div class="image col-md-7">
+                <img src="img/private_events.png" alt="">
+              </div>
+              <div class="modal-description col-md-5">
+                <div class="modal-description-text">
+                  <p>
+                    Private events is an app built for the purpose of better managing the events. It aims to bring the event organizers and event attenders in a single place.
+                  </p>
+                  <p>
+                    Private events provides a platform for all kinds of events. Users can create an event or attend the events created by other users. When an user attends an event, the app shows the previous and upcoming events in the profile page of the user.
+                  </p>
+                </div>
+                <div class="buttons d-flex">
+                  <div class="pr-2">
+                    <a href="https://still-meadow-93743.herokuapp.com/" target="_blank" class="btn works-button">See Live</a>
+                  </div>
+                  <div class="pl-2">
+                    <a href="https://github.com/praz99/private_events_self" target="_blank" class="btn works-button">See Source</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal bookeeper -->
+    <div class="modal fade" id="modal-bookeeper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bookeeper</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-badge mt-2"> 
+              <span class="badge card-modal-badge">html</span>
+              <span class="badge card-modal-badge">css</span>
+              <span class="badge card-modal-badge">bootstrap</span>
+            </div>
+            <div class="d-flex flex-column flex-md-row row">
+              <div class="image col-md-7">
+                <img src="img/bookeeper.png" alt="">
+              </div>
+              <div class="modal-description col-md-5">
+                <div class="modal-description-text">
+                  <p>Bookeeper is a simple website containing only the front-end built using HTML, CSS and bootstrap.</p>
+                  <p>It is a e-library kind of app, where users can browse for various books and read it.</p>
+                </div>
+                <div class="buttons d-flex">
+                  <div class="pr-2">
+                    <a href="https://raw.githack.com/praz99/HTML-CSS-Capstone-project/mainpage/index.html" target="_blank" class="btn works-button">See Live</a>
+                  </div>
+                  <div class="pl-2">
+                    <a href="https://github.com/praz99/HTML-CSS-Capstone-project" target="_blank" class="btn works-button">See Source</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
